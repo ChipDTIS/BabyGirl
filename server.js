@@ -13,7 +13,7 @@ import ToDo from './mongooes/todo';
 
 var Schema = mongoose.Schema
 var SinhVien = new Schema({ 
-    name    : String
+    name    : String 
   , year    : String 
 });
 
