@@ -14,7 +14,7 @@ import ToDo from './mongooes/todo';
 var Schema = mongoose.Schema
 var SinhVien = new Schema({
     name    : String
-  , year      : String
+  , year      : String 
 });
 
 var MyUserModel = mongoose.model('SinhVien', SinhVien); //create and access the model User
