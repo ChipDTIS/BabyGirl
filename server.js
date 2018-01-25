@@ -12,7 +12,7 @@ const app = express();
 import ToDo from './mongooes/todo';
 
 var Schema = mongoose.Schema
-var SinhVien = new Schema({
+var SinhVien = new Schema({ 
     name    : String
   , year    : String 
 });
